@@ -38,13 +38,19 @@ export default function Home() {
 
       <section className={styles.contact}>
         <div>
-          <h3>Hast Du Fragen ? Ruf uns an.</h3>
+          <h3>Hast Du Fragen ? Kontaktiere uns!</h3>
         </div>
         <div>
-          <h3>
-            {" "}
-            <i className="material-icons">call</i> 030/ 34391835{" "}
-          </h3>
+          <i className="material-icons">email</i>
+        </div>
+
+        <div>
+          <div>
+            <i className="material-icons">call</i>{" "}
+          </div>
+          <div>
+            <h3>030/ 34391835</h3>
+          </div>
         </div>
       </section>
     </div>

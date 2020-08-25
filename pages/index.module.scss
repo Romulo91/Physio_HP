@@ -28,12 +28,12 @@
 
 .contact {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 5%;
+  padding: 2%;
   background-color: lightblue;
+  justify-content: space-around;
   > div {
-    flex-direction: row;
-    flex-wrap: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
   }
 }
