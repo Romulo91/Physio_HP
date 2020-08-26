@@ -37,55 +37,61 @@ export default function Home() {
       </section>
 
       <section className={styles.leistungen}>
-        <h2>Unsere Leistungen im Überblick.</h2>
-        <p>
-          Unser Expertenteam, welches sich ganz auf die Bedürfnisse seiner
-          Patienten einstellt. Hat sich auf die Hausbesuche speziallisiert, da
-          wir verstehen, dass es unter gewissen umständen schwer ist das Haus zu
-          verlassen.
-        </p>
+        <div>
+          <div>
+            <h2>Unsere Leistungen im Überblick.</h2>
 
-        <div>
-          <h1> hello</h1>
-          <img src="/leistungen.jpg" alt="leistungen" />
+            <p>
+              Unser Expertenteam, welches sich ganz auf die Bedürfnisse seiner
+              Patienten einstellt. Hat sich auf die Hausbesuche speziallisiert,
+              da wir verstehen, dass es unter gewissen umständen schwer ist das
+              Haus zu verlassen.
+            </p>
+          </div>
         </div>
-        <div>
-          <ul>
-            <li>
-              <h3>Hausbesuche</h3>
-            </li>
-            <li>
-              <h3> Manuelle Therapie</h3>
-            </li>
-            <li>
-              <h3> Fango Behandlung</h3>
-            </li>
-            <li>
-              <h3>CMD Kiefergelenkstherapie </h3>
-            </li>
-            <li>
-              <h3>Heißluft</h3>
-            </li>
-            <li>
-              <h3>Krankengymnastik</h3>
-            </li>
-            <li>
-              <h3>Lymphdrainage</h3>
-            </li>
-            <li>
-              <h3>Massagen</h3>
-            </li>
-            <li>
-              <h3>Migränetherapie</h3>
-            </li>
-            <li>
-              <h3>Schlingentisch</h3>
-            </li>
-            <li>
-              <h3>Therapie nach Bobath</h3>
-            </li>
-          </ul>
-        </div>
+
+        <section>
+          <div>
+            <img src="/leistungen.jpg" alt="leistungen" />
+          </div>
+          <div>
+            <ul>
+              <li>
+                <h3>Hausbesuche</h3>
+              </li>
+              <li>
+                <h3> Manuelle Therapie</h3>
+              </li>
+              <li>
+                <h3> Fango Behandlung</h3>
+              </li>
+              <li>
+                <h3>CMD Kiefergelenkstherapie </h3>
+              </li>
+              <li>
+                <h3>Heißluft</h3>
+              </li>
+              <li>
+                <h3>Krankengymnastik</h3>
+              </li>
+              <li>
+                <h3>Lymphdrainage</h3>
+              </li>
+              <li>
+                <h3>Massagen</h3>
+              </li>
+              <li>
+                <h3>Migränetherapie</h3>
+              </li>
+              <li>
+                <h3>Schlingentisch</h3>
+              </li>
+              <li>
+                <h3>Therapie nach Bobath</h3>
+              </li>
+            </ul>
+          </div>
+        </section>
       </section>
 
       <section className={styles.contact}>
@@ -105,6 +111,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section className={styles.oeffnung}></section>
     </div>
   );
 }

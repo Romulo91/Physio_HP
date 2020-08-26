@@ -13,7 +13,6 @@
   align-items: center;
   padding: 5%;
   > div {
-    width: 80%;
     > p {
       line-height: 2;
       width: 90vh;
@@ -31,9 +30,20 @@
 }
 
 .leistungen {
-  > img {
-    width: 50px;
-    height: 50px;
+  display: flex;
+  flex-direction: column;
+  > div {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    flex-grow: 1;
+  }
+  > section {
+    display: flex;
+    justify-content: space-around;
+    > div > ul > li > h3 {
+      font-size: 16px;
+    }
   }
 }
 
@@ -47,4 +57,7 @@
     align-items: center;
     gap: 1rem;
   }
+}
+
+.oeffnung {
 }
