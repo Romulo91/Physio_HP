@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Dreigold</title>
         <link rel="icon" href="/favicon.ico" />
         <link
           href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -24,7 +24,7 @@ export default function Home() {
           <p>
             Unsere im ..... 2020 eröffnete physiotherapeutische Praxis liegt im
             Herzen von Berlin Kreuzberg, am Bergmankiez. In der nähe der U-7
-            Geisenauerstr oder dem Bus 248 Jüterboger Str. erreichen Sie
+            Geisenauerstr oder dem Bus 248 Jüterboger Str. erreichen Sie uns
             Fußläufig.
           </p>
           <p>
@@ -33,6 +33,58 @@ export default function Home() {
             stehen bei uns im Mittelpukt, den Ihre Gesundheit und Ihr
             Wohlbefinden ist unsere Priorität.
           </p>
+        </div>
+      </section>
+
+      <section className={styles.leistungen}>
+        <h2>Unsere Leistungen im Überblick.</h2>
+        <p>
+          Unser Expertenteam, welches sich ganz auf die Bedürfnisse seiner
+          Patienten einstellt. Hat sich auf die Hausbesuche speziallisiert, da
+          wir verstehen, dass es unter gewissen umständen schwer ist das Haus zu
+          verlassen.
+        </p>
+
+        <div>
+          <h1> hello</h1>
+          <img src="/leistungen.jpg" alt="leistungen" />
+        </div>
+        <div>
+          <ul>
+            <li>
+              <h3>Hausbesuche</h3>
+            </li>
+            <li>
+              <h3> Manuelle Therapie</h3>
+            </li>
+            <li>
+              <h3> Fango Behandlung</h3>
+            </li>
+            <li>
+              <h3>CMD Kiefergelenkstherapie </h3>
+            </li>
+            <li>
+              <h3>Heißluft</h3>
+            </li>
+            <li>
+              <h3>Krankengymnastik</h3>
+            </li>
+            <li>
+              <h3>Lymphdrainage</h3>
+            </li>
+            <li>
+              <h3>Massagen</h3>
+            </li>
+            <li>
+              <h3>Migränetherapie</h3>
+            </li>
+            <li>
+              <h3>Schlingentisch</h3>
+            </li>
+            <li>
+              <h3>Therapie nach Bobath</h3>
+            </li>
+          </ul>
         </div>
       </section>
 

@@ -14,6 +14,10 @@
   padding: 5%;
   > div {
     width: 80%;
+    > p {
+      line-height: 2;
+      width: 90vh;
+    }
   }
   > i {
     width: 300px;
@@ -23,6 +27,13 @@
     float: right;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+.leistungen {
+  > img {
+    width: 50px;
+    height: 50px;
   }
 }
 
