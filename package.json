@@ -8,9 +8,13 @@
     "start": "next start"
   },
   "dependencies": {
+    "google-map-react": "^2.0.8",
+    "google-maps-react": "^2.0.6",
     "next": "9.5.2",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-map-gl": "^5.2.7",
+    "schema-utils": "^2.7.0"
   },
   "devDependencies": {
     "sass": "^1.26.10"

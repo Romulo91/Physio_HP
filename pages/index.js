@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { Header } from "../components/Header";
+import MapContainer from "../components/MapContainer";
 import styles from "./index.module.scss";
 
 export default function Home() {
@@ -111,7 +112,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className={styles.oeffnung}></section>
+
+      <MapContainer />
     </div>
   );
 }
