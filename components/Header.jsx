@@ -1,8 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import styles from "./Header.module.scss";
+
+let lastY = 0;
 
 export const Header = () => {
   const [open, setOpen] = useState(false); // erhalte immer ein Array zurück []
+  const headerRef = useRef(null);
 
   const handleClick = (e) => {
     const isOutside = !e.target.closest("nav");
@@ -11,17 +14,31 @@ export const Header = () => {
     }
   };
 
+  const handleScroll = (e) => {
+    const y = window.scrollY;
+    const isColored = headerRef.current.classList.contains("colored");
+    if (y >= 100 && lastY < y && !isColored) {
+      console.log(headerRef.current.classList);
+      headerRef.current.classList.add("colored");
+    } else if (y < 100 && lastY > y && isColored) {
+      headerRef.current.classList.remove("colored");
+    }
+    lastY = y;
+  };
+
   useEffect(() => {
     // nach dem ersten Rendern
     document.addEventListener("click", handleClick);
+    document.addEventListener("scroll", handleScroll);
     return () => {
       // bevor der Effekt erneut ausgeführt wird
       document.removeEventListener("click", handleClick);
+      document.removeEventListener("scroll", handleScroll);
     };
   }, [open]);
 
   return (
-    <header className={styles.header}>
+    <header ref={headerRef} className={styles.header}>
       <div className="content" data-open={open}>
         <h1>Physiotherapie</h1>
         <nav>

@@ -1,6 +1,8 @@
+@import "./vars.css";
+
 html,
 body {
-  background-color: #e9eae4;
+  background-color: #ffffff;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -33,4 +35,11 @@ ul {
   margin: 0 auto;
   max-width: 1200px;
   width: 100%;
+}
+
+.colored {
+  background-color: var(--cl-gold) !important;
+}
+.colored * {
+  color: white !important;
 }
