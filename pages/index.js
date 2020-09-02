@@ -53,10 +53,42 @@ export default function Home() {
             zu verlassen.
           </p>
         </div>
-        <div>
-          <img src="/leistungen.jpg" alt="leistungen" />
+        <div className={styles.contLeistungen}>
+          <div>
+            {" "}
+            <h4>CMD Kiefergelenktherapie</h4>
+          </div>
+          <div>
+            <h4>Fango Behandlung</h4>
+          </div>
+          <div>
+            <h4>Hausbesuche</h4>
+          </div>
+          <div>
+            <h4>Heißluft</h4>
+          </div>
+          <div>
+            <h4>Lymphdrainage</h4>
+          </div>
+          <div>
+            <h4>Manuelle Therapie</h4>
+          </div>
+          <div>
+            <h4>Massagen</h4>
+          </div>
+          <div>
+            <h4>Magränetherapie</h4>
+          </div>
+          <div>
+            <h4>Schlingentisch</h4>
+          </div>
+          <div>
+            <h4>Therapie nach Bobath</h4>
+          </div>
         </div>
       </section>
+
+      {/* map location  */}
       <section>
         <div style={{ width: "100%" }}>
           <iframe
