@@ -1,7 +1,6 @@
 import Head from "next/head";
-import { Header } from "../components/Header";
-
 import styles from "./index.module.scss";
+import { Header } from "../components/Header";
 
 export default function Home() {
   return (
@@ -127,3 +126,5 @@ export default function Home() {
     </div>
   );
 }
+
+// a tag mit der id zur leistungsbeschreibung!
