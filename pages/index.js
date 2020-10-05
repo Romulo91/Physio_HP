@@ -17,9 +17,7 @@ export default function Home() {
       <Header />
       <section className={styles.banner}></section>
       {/* Willkommen in unserer Praxis */}
-      <section className={styles.waves}>
-        <div></div>
-      </section>
+
       <section className={styles.intro}>
         <div>
           <div>
