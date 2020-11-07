@@ -16,49 +16,128 @@ export default function Leistungen() {
         ></link>
       </Head>
       <Header />
-      <h1>Umfassende Unterstützung bei ihren Beschwerden</h1>
 
-      <br />
-      <br />
+      <div className={styles.headerContend}>
+        <h1>Leistungen</h1>
+        <h3>
+          Neben Schlingen, Magränetherapie, Lymphdrainage und Heißluft bieten
+          wir Ihnen folgende Umfassende Unterstützung bei ihren Beschwerden
+        </h3>
+      </div>
 
-      <section className={styles.serviceContainerRigth}>
+      <section className={styles.serviceContainer}>
         <div>
           <h2>Hausbesuche</h2>
-          <br />
-          <p>Hallo wir bieten auch hausbesuche an</p>
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+            et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+            accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+            no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          </p>
         </div>
         <img src="../Physio.jpg" />
       </section>
 
-      <section className={styles.serviceContainerRigth}>
-        <img src="../Physio2.jpg" />
+      <section className={styles.serviceContainer}>
+        <img src="../Physio6.jpg" />
         <div>
           <h2>CMD Kiefergelenktherapie</h2>
-          <br />
-          <p>Hallo wir bieten auch hausbesuche an</p>
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+            et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+            accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+            no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          </p>
         </div>
       </section>
 
-      <section className={styles.serviceContainerRigth}>
+      <section className={styles.serviceContainer}>
         <div>
           <h2>Fango Behandlung</h2>
-          <br />
-          <p>Hallo wir bieten auch hausbesuche an</p>
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+            et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+            accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+            no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          </p>
         </div>
         <img src="../Physio3.jpg" />
+      </section>
+
+      <section className={styles.serviceContainer}>
+        <img src="../Physio2.jpg" />
+        <div>
+          <h2>Massagen</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+            et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+            accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+            no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+      </section>
+
+      <section className={styles.serviceContainer}>
+        <div>
+          <h2>Manuelle Therapie</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+            et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+            accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+            no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+        <img src="../Physio4.jpg" />
+      </section>
+
+      <section className={styles.serviceContainer}>
+        <img src="../Physio5.jpg" />
+        <div>
+          <h2>Therapie nach Bobath</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+            et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+            accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+            no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          </p>
+        </div>
       </section>
     </div>
   );
 }
 
-{
-  /* 
-
-<h2>Heißluft</h2>
-<h2>Manuelle Therapie</h2>
-<h2>Massagen</h2>
-<h2>Magränetherapie</h2>
-<h2>Schlingentisch</h2>
-<h2>Therapie nach Bobath</h2>
-<h2>Lymphdrainage</h2> */
-}
+/* 
+<h2></h2>
+<h2></h2>
+<h2></h2>
+<h2></h2> */

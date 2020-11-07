@@ -1,10 +1,31 @@
-.serviceContainerRigth {
+.headerContend {
   display: flex;
-  div {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid black;
+}
+
+.serviceContainer {
+  display: flex;
+  > div {
+    display: flex;
+    flex-direction: column;
     width: 50vw;
     text-align: center;
+    justify-content: center;
+    > p {
+      text-align: center;
+      padding: 5%;
+      justify-content: center;
+      line-height: 1.8;
+      font-size: 1.1em;
+    }
   }
-  img {
+  > img {
     width: 50vw;
+    max-height: 900px;
   }
 }
