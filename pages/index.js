@@ -16,13 +16,11 @@ export default function Home() {
 
       <Header />
       <section className={styles.banner}></section>
-      {/* Willkommen in unserer Praxis */}
 
       <section className={styles.intro}>
         <div>
-          <div>
+          <div className={styles.headerIntro}>
             <h2>Willkommen in unserer Praxis</h2>
-            <hr></hr>
           </div>
           <div>
             <p>
@@ -85,6 +83,28 @@ export default function Home() {
           </div>
           <div>
             <h4>Therapie nach Bobath</h4>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div className={styles.columnContend}>
+          <div>
+            <p>Deine Besserung beginnt hier.</p>
+            <h3>
+              Dreigold | Eine Außergewöhnliche Physiotherapie in Berlin -
+              Kreuzberg
+            </h3>
+          </div>
+
+          <div className={styles.unterContend}>
+            <div>Blablabla</div>
+            <div>
+              <h2>Zu unseren Aufgaben gehören : </h2>
+              <h3>Alte Stärken wiedergewinnen !</h3>
+              <h3>Bestleistungen erzielen !</h3>
+              <h3>Schmerzen lindern !</h3>
+            </div>
           </div>
         </div>
       </section>
