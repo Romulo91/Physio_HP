@@ -54,7 +54,6 @@ export default function Home() {
         </div>
         <div className={styles.contLeistungen}>
           <div>
-            {" "}
             <h4>CMD Kiefergelenktherapie</h4>
           </div>
           <div>
@@ -89,23 +88,36 @@ export default function Home() {
 
       <section>
         <div className={styles.columnContend}>
-          <div>
-            <p>Deine Besserung beginnt hier.</p>
-            <h3>
-              Dreigold | Eine Außergewöhnliche Physiotherapie in Berlin -
-              Kreuzberg
-            </h3>
+          <div className={styles.contendHeader}>
+            <div className={styles.contendFiller}></div>
+            <div>
+              <p>Deine Besserung beginnt hier.</p>
+            </div>
+            <div>
+              <h3>
+                Dreigold | Eine Außergewöhnliche Physiotherapie in Berlin -
+                Kreuzberg
+              </h3>
+            </div>
+            <div className={styles.contendFiller}></div>
           </div>
 
           <div className={styles.unterContend}>
-            <div>Blablabla</div>
-            <div>
+            <div className={styles.generalContend}>
               <h2>Zu unseren Aufgaben gehören : </h2>
               <h3>Alte Stärken wiedergewinnen !</h3>
               <h3>Bestleistungen erzielen !</h3>
               <h3>Schmerzen lindern !</h3>
+              <p>Ihre Therapie verdient volle Aufmerksamkeit.</p>
+              <p>
+                Deswegen unterstützen wir dich durch maßgeschneiderte
+                Therapiekonzepte.
+              </p>
+              <span>Mehr über uns</span>
             </div>
+            <div className={styles.imgContend}></div>
           </div>
+          <div className={styles.contendFiller}></div>
         </div>
       </section>
 

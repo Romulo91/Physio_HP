@@ -45,7 +45,6 @@ export const Header = () => {
           <a href="/"> Home</a>
           <a href="/leistungen"> Leistungen </a>
           <a href="/team"> Team </a>
-          <a href="/about"> Über Uns </a>
         </nav>
         <button onClick={() => setOpen(!open)}>
           <i className="material-icons">menu</i>

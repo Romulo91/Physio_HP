@@ -40,18 +40,20 @@ $turquoise: #1abc9c;
 }
 
 .leistungen {
+  display: flex;
+  flex-direction: column;
   padding-top: 2%;
   padding-bottom: 2%;
   height: 100vh;
   // background-color: #dcdcdc;
   background-image: url(../public/Healthcare.jpg);
+  opacity: 0.9;
   background-size: cover;
-  // background-attachment: fixed;
+  background-attachment: fixed;
   background-position-x: center;
   background-position-y: center;
   background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
+
   > div {
     margin: 0 auto;
     display: flex;
@@ -107,8 +109,57 @@ $turquoise: #1abc9c;
 .columnContend {
   display: flex;
   flex-direction: column;
+
+  .contendHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    > div p {
+      color: var(--cl-gold);
+      font-size: 1.7rem;
+      font-weight: 600;
+    }
+    > div h3 {
+      max-width: 60vw;
+      font-size: 46px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      color: #0b0b0b;
+      line-height: 1.25;
+    }
+  }
+
   .unterContend {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    .imgContend {
+      background-image: url(../public/love.jpg);
+      background-repeat: no-repeat;
+      width: 500px;
+      height: 455px;
+    }
   }
+}
+.generalContend {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.4em;
+  > span {
+    padding-top: 30px;
+  }
+  > h2 {
+    margin-bottom: 30px;
+  }
+
+  > h3 {
+    color: var(--cl-gold);
+  }
+}
+.contendFiller {
+  height: 100px;
 }

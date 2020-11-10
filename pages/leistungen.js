@@ -20,7 +20,7 @@ export default function Leistungen() {
       <div className={styles.headerContend}>
         <h1>Leistungen</h1>
         <h3>
-          Neben Schlingen, Magränetherapie, Lymphdrainage und Heißluft bieten
+          Neben Schlingen, Migränetherapie, Lymphdrainage und Heißluft bieten
           wir Ihnen folgende Umfassende Unterstützung bei ihren Beschwerden an!
         </h3>
       </div>

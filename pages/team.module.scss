@@ -1,0 +1,55 @@
+.teamHeader {
+  padding: 8%;
+  background-color: #c79400;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+.over {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  color: white;
+  opacity: 0.8;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  transition: 1s ease;
+}
+.container:hover .over {
+  height: 100%;
+}
+.txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 1.8em;
+  position: absolute;
+  top: 5%;
+  width: 100%;
+}
+
+.teamContainer {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding-bottom: 50px;
+  h2 {
+    padding: 10%;
+    color: #c79400;
+  }
+}
